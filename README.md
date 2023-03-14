@@ -1,5 +1,5 @@
 # KUMA Protocol - Mitigation contest details
-- Total Prize Pool: $14,700 USDC 
+- Total Prize Pool: $11,000 USDC 
 - [Warden guidelines for C4 mitigation reviews](https://code4rena.notion.site/Guidelines-for-Versus-mitigation-reviews-ed10fc5cfbf640bd8dcec66f38b343c4)
 - Submit findings [using the C4 form](https://code4rena.com/contests/2023-03-kuma-protocol-mitigation-contest/submit)
 - Starts March 16, 2023 20:00 UTC
@@ -9,13 +9,13 @@
 
 Each warden must submit a mitigation review for *every High and Medium finding* from the parent contest. **Incomplete mitigation reviews will not be eligible for awards.**
 
-[ ⭐️ SPONSORS ADD INFO HERE ]
-
 ## Findings being mitigated
 
-Mitigations of all High and Medium issues will be considered in-scope and listed here.
-
-- [H-01: Title](link to Github issue)
+- [H-01: TRANSFERING KIBToken TO YOURSELF INCREASES YOUR BALANCE](https://github.com/code-423n4/2023-02-kuma-findings/issues/3)
+- [M-01: KUMABondToken.approve() should revert if the owner of the tokenId is blacklisted](https://github.com/code-423n4/2023-02-kuma-findings/issues/22)
+- [M-02: KUMAFeeCollector.changePayees() executes incorrectly when newPayees contains duplicate items ](https://github.com/code-423n4/2023-02-kuma-findings/issues/13)
+- [M-03: Price feed in MCAGRateFeed#getRate is not sufficiently validated and can return stale price](https://github.com/code-423n4/2023-02-kuma-findings/issues/11)
+- [M-04: KUMASwap incorrectly reverts when when _maxCoupons has been reached](https://github.com/code-423n4/2023-02-kuma-findings/issues/10)
 
 ## Overview of changes
 
