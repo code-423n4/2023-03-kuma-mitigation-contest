@@ -8,7 +8,14 @@
 
 ## Important note
 
-Each warden must submit a mitigation review for _every High and Medium finding_ listed below along with one report each for the Gas and QA fixes from the parent contest.  For each report, please include a Headline for each finding, that makes it easy to understand whether the finding was fixed or not.
+Each warden must submit a mitigation review for:
+
+- Every High and Medium finding listed below, and
+- one report each for the Gas and QA fixes.
+
+For the Gas and QA mitigation reports:
+- Write a headline for each specific finding, that indicates whether the specific finding was fixed
+- Add any additional information for each finding below each headline
 
 **Incomplete mitigation reviews will not be eligible for awards.**
 
