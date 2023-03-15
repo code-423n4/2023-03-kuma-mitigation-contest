@@ -2,13 +2,15 @@
 
 - Total Prize Pool: $11,000 USDC
 - [Warden guidelines for C4 mitigation reviews](https://code4rena.notion.site/Guidelines-for-Versus-mitigation-reviews-ed10fc5cfbf640bd8dcec66f38b343c4)
-- Submit findings [using the C4 form](https://code4rena.com/contests/2023-03-kuma-protocol-mitigation-contest/submit)
+- Submit findings [using the C4 form](https://code4rena.com/contests/2023-03-kuma-protocol-versus-mitigation-contest/submit)
 - Starts March 16, 2023 20:00 UTC
 - Ends March 21, 2023 20:00 UTC
 
 ## Important note
 
-Each warden must submit a mitigation review for _every High and Medium finding_ from the parent contest. **Incomplete mitigation reviews will not be eligible for awards.**
+Each warden must submit a mitigation review for _every High and Medium finding_ listed below along with one report each for the Gas and QA fixes from the parent contest.  For each report, please include a Headline for each finding, that makes it easy to understand whether the finding was fixed or not.
+
+**Incomplete mitigation reviews will not be eligible for awards.**
 
 ## Findings being mitigated
 
@@ -17,6 +19,8 @@ Each warden must submit a mitigation review for _every High and Medium finding_ 
 - [M-02: KUMAFeeCollector.changePayees() executes incorrectly when newPayees contains duplicate items ](https://github.com/code-423n4/2023-02-kuma-findings/issues/13)
 - [M-03: Price feed in MCAGRateFeed#getRate is not sufficiently validated and can return stale price](https://github.com/code-423n4/2023-02-kuma-findings/issues/11)
 - [M-04: KUMASwap incorrectly reverts when when \_maxCoupons has been reached](https://github.com/code-423n4/2023-02-kuma-findings/issues/10)
+- QA Reports including [#19](https://github.com/code-423n4/2023-02-kuma-findings/issues/19), [#7](https://github.com/code-423n4/2023-02-kuma-findings/issues/7), [#23](https://github.com/code-423n4/2023-02-kuma-findings/issues/23), and [#15](https://github.com/code-423n4/2023-02-kuma-findings/issues/15).
+- [Gas Report](https://github.com/code-423n4/2023-02-kuma-findings/issues/21)
 
 ## Overview of changes
 
