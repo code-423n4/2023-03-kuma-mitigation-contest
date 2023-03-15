@@ -34,8 +34,8 @@ Wherever possible, mitigations should be provided in separate pull requests, one
 | https://github.com/code-423n4/2023-02-kuma/pull/5    | M-02          | This mitigation adds a duplicate payees check in KUMAFeeCollector changePayees|
 | https://github.com/code-423n4/2023-02-kuma/pull/6 | M-03          | This mitigation adds a staleness threshold check to MCAGRateFeed |
 | https://github.com/code-423n4/2023-02-kuma/pull/7| M-04          | This mitigation fixes the logic in KUMASwap sellBond revert for when maxCoupons has been reached|
-| https://github.com/code-423n4/2023-02-kuma/pull/8    | QA          | This mitigation adds QA fixes|
-| https://github.com/code-423n4/2023-02-kuma/pull/9    | GAS          | This mitigation adds some gas optimizations|
+| https://github.com/code-423n4/2023-02-kuma/pull/8    | QA          | This mitigation adds QA fixes - see PR for specific fixes|
+| https://github.com/code-423n4/2023-02-kuma/pull/9    | GAS          |This mitigation adds QA fixes - see PR for specific fixes |
 
 ## Out of Scope
 
